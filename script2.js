@@ -1,6 +1,15 @@
 /*let entrada = parseInt*/
 
-let section=document.querySelector("main")
+const btn=document.querySelector("c")
+const dark=document.querySelector("dark")
+
+btn.onclick = function(){
+    this.classList.toggle('active')
+
+}
+
+    
+
 
 function todarkside(){
     
